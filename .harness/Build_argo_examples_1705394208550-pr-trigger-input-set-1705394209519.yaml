@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_argo_examples_1705394208550-pr-trigger-input-set
+  identifier: Build_argo_examples_1705394208550prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: hemanthrepro
+  pipeline:
+    identifier: Build_argo_examples_1705394208550
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>

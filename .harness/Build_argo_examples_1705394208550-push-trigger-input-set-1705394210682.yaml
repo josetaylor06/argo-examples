@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_argo_examples_1705394208550-push-trigger-input-set
+  identifier: Build_argo_examples_1705394208550pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: hemanthrepro
+  pipeline:
+    identifier: Build_argo_examples_1705394208550
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
